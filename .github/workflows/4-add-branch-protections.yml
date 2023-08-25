@@ -61,6 +61,7 @@ jobs:
 
       # TODO: figure out a better way to deal with the lock on `main`, merge conflict this creates
       # In README.md, switch step 4 for step 5.
+
       - name: Update to step 5
         uses: skills/action-update-step@v2
         with:
@@ -68,3 +69,4 @@ jobs:
           from_step: 4
           to_step: 5
           branch_name: ci
+
